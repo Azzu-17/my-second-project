@@ -3,6 +3,12 @@ body{
     margin: 0;
     padding: 0;
 }
+.content-body{
+    padding: 32px;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
 li{
     list-style-type: none;
 }
@@ -54,13 +60,12 @@ nav{
 }
 .hero h1{
     font-size: 5.6rem;
-    font-weight: 500;
+    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-    font-weight: bold;
 }
 .hero p{
     font-size: 0.75rem;
@@ -74,9 +79,8 @@ nav{
 }
 
 .recent-blog-body{
-    background-color: #f8f9fa;
     padding: 15px;
-    align-content: center;
+    justify-content: center;
     margin: 0;
     text-align: center;
 }
@@ -89,31 +93,35 @@ nav{
     align-items: center;
     padding: 15px;
     margin: 0;
-    font-weight: bold;
     color: #1A1A1A;
 }
 .blog-img {
     padding: 12px;
-    margin: 0 auto; 
+    margin: 0; 
     display: block; 
     object-fit: cover;
-    width: 80%; 
+    width: 100%; 
     max-width: 592px;
     height: auto; 
     min-width: 250px; 
     border-radius: 8px; 
 }
 
+
 .blog__author_and_date{
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 400;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 6px;
+    padding: 3px;
     margin: 0;
-    font-weight: bold;
     color: #6941C6;
+    margin-bottom: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
 }
 .blog__title{
     font-size: 1.25rem;
@@ -121,7 +129,7 @@ nav{
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 6px;
+    padding: 3px;   
     margin: 0;
     font-weight: bold;
     color: #1A1A1A;
@@ -129,9 +137,122 @@ nav{
 
 .blog__content{
     font-size: 1rem;
-    font-weight: 300;
-    padding: 6px;
+    font-weight: 400;
+    padding: 1px;
     margin: 0;
     color: #667085;
     text-align: left;
+}
+
+.design-tag, .leadership-tag, .podcasts-tag{
+.design-tag, .leadership-tag, .podcasts-tag{
+    font-size: 1rem;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #6941C6;
+    background-color: #F9F5FF;
+    border-radius: 16px;
+    margin-right: 4px;
+    font-weight: 400;
+}
+.research-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #3538CD;
+    background-color: #EEF4FF;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.presentation-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #C11574;
+    background-color: #FDF2FA;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.interface-tag, .tools-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #C11574;
+    background-color: #FDF2FA;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.management-tag, .customer-success-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #363F72;
+    background-color: #F8F9FC;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.product-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #026AA2;
+    background-color: #F0F9FF;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.framework-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #C4320A;
+    background-color: #FFF6ED;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.software-development-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #027A48;
+    background-color: #ECFDF3;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.saas-tag{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 2px 10px 2px 10px;
+    margin: 0;
+    color: #C01048;
+    background-color: #FFF1F3;
+    border-radius: 16px;
+    margin-right: 4px;
+}
+
+.all-blog-body{
+    padding: 15px;
+    align-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+.all-blog{
+    padding: 15px;
+    align-content: center;
+    margin: 0;
+    text-align: center;
 }
